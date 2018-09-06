@@ -1,0 +1,54 @@
+body{
+    background-color: currentColor;
+}
+h1{
+    text-align: center;
+    background-color: #0D47A1;
+    color: white;
+    padding: 10px 0 10px 0;
+    margin: 20px 0px 20px 0px;
+    font-family: 'Lobster', cursive;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.news-discription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.divs {
+    display: inline-block;
+    margin: 3px;
+    height: 550px;
+    border: none;
+    min-width: 100px;
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.title {
+    font-size: 20px;
+    
+}
+
+p {
+    font-size: 15px;
+    color: white;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.blockquote-footer{
+    text-align: center;
+    font-size: 20px;
+    background-color:white;
+}
